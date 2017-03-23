@@ -18,7 +18,7 @@
 	    <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
 	        <input type="text" name="new_item" value=""/>
 	        <checkbox value="1"/>已付钱
-            <checkbox value="1"/>已买
+            <checkbox value="1"/>已买 
             <checkbox value="1"/>已运
             <button class="edit_btn" bindtap="editTap">添加物品</button>
 	    </view>
