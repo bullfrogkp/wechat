@@ -38,7 +38,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom:1px solid #ddd;
     padding:10rpx 0rpx;
     vertical-align: middle;
     line-height: 80rpx;

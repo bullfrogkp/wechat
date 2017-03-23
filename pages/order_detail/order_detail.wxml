@@ -1,22 +1,29 @@
 <view class="container"> 
 	<view class="ar_cont">
-        <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
+        <view class="ar_sevice_item" style="border-top:1px solid #ddd;padding-bottom:30rpx;padding-top:30rpx">
         	<view style="width:100%;text-align:center;">
-		        <text style="width:100%">三条打底裤</text>
+				<view style="width:80%;margin:0 auto;line-height:50rpx;">
+		        <text>三条打底裤三条打底裤三条打底裤三条打底裤三条打底裤三条打底裤三条打底裤三条打底裤三条打底裤三条打底裤三条打底裤三条打底裤</text>
+				</view>
 		        <view>
-					<checkbox value="1"/>已付钱
-					<checkbox value="1"/>已买 
+					<checkbox value="1"/><text style="margin-right:100rpx;">已付钱</text>
+					<checkbox value="1"/><text style="margin-right:100rpx;">已买</text>
 					<checkbox value="1"/>已运
 				</view>
-	            <button class="edit_btn" bindtap="editTap">更新</button>
+	            <button class="edit_btn" bindtap="editTap" style="margin-top:30rpx">更新</button>
             </view>
 	    </view>
-	    <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
-	        <input type="text" name="new_item" value=""/>
-	        <checkbox value="1"/>已付钱
-            <checkbox value="1"/>已买 
-            <checkbox value="1"/>已运
-            <button class="edit_btn" bindtap="editTap">添加物品</button>
+	    <view class="ar_sevice_item" style="border-top:1px solid #ddd;padding-bottom:30rpx;padding-top:30rpx">
+        	<view style="width:100%;text-align:center;">
+				<textarea style="border:1px solid #ddd;"></textarea>
+				
+		        <view>
+					<checkbox value="1"/><text style="margin-right:100rpx;">已付钱</text>
+					<checkbox value="1"/><text style="margin-right:100rpx;">已买</text>
+					<checkbox value="1"/>已运
+				</view>
+	            <button class="edit_btn" bindtap="editTap" style="margin-top:30rpx">添加</button>
+            </view>
 	    </view>
 	</view>
 </view>
