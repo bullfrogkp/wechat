@@ -5,6 +5,7 @@
     "pages/contact_detail/contact_detail",
     "pages/edit_contact/edit_contact",
     "pages/orders/orders",
+    "pages/contact_orders/contact_orders",
     "pages/order_detail/order_detail",
     "pages/edit_order/edit_order",
     "pages/logs/config"

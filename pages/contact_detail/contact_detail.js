@@ -10,9 +10,9 @@ Page( {
     	url:'../edit_contact/edit_contact'
     })
   },
-  checkOrders:function(){
-    wx.navigateTo({
-    	url:'../orders/orders'
-    })
-  }
+  ediTap:function(){
+	    wx.navigateTo({
+	    	url:'../contact_orders/contact_orders'
+	    })
+	  }
 })

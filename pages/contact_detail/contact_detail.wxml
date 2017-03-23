@@ -1,5 +1,5 @@
 <view class="container">
-	<view class="ar_cont">
+	<view class="ar_cont"> 
 	    <view class="ar_cont_h1" bindtap="editTap" data-aid="{{item.id}}">编辑客户信息</view> 
 	
 	    <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
@@ -26,7 +26,7 @@
 			<checkbox value="1" checked="true"/>
 	    </view>
 	</view>
-	<button class="edit_btn" bindtap="checkOrders">订单</button>
+	<button class="edit_btn" bindtap="ediTap">订单</button>
 	<button class="edit_btn" bindtap="editTap">编辑</button>
 	<button class="edit_btn">删除</button>
 </view>
