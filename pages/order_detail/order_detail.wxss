@@ -70,5 +70,4 @@
     font-size: 32rpx;
     color:#fff;
     border-radius: 0rpx;
-    margin:40rpx 0rpx 10rpx;
 }
