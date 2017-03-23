@@ -41,9 +41,9 @@ Page({
       
   },
   // 跳转至详情页
-  contactDetail: function(e){
+  orderDetail: function(e){
     wx.navigateTo({
-      url:'../contact_detail/contact_detail?artype=' + e.currentTarget.dataset.artype
+      url:'../order_detail/order_detail?artype=' + e.currentTarget.dataset.artype
     })
   },
   // 加载更多

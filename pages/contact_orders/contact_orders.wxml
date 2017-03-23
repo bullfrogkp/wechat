@@ -10,7 +10,7 @@
 	        <block wx:for="{{list[curIndex]}}" wx:key="item.id">
 	            <view class="nav_section_items" >
 	                <!--content-->
-	                <view class="section_cont" bindtap="contactDetail" data-aid="{{item.id}}">
+	                <view class="section_cont" bindtap="orderDetail" data-aid="{{item.id}}">
 	                    <view class="section_cont_sub">
 	                        <text>{{item.subject}}</text>
 	                    </view>
