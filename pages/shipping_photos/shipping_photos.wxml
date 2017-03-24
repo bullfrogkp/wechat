@@ -1,0 +1,16 @@
+<view class="container">
+	<view class="ar_cont">
+	    <button bindtap="addImage" data-aid="{{item.id}}">添加图片</button> 
+		<view style="margin-top:30rpx">
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+		    <image style="width: 200rpx; height: 200rpx; float:left;"  mode="scaleToFill" src="../../images/avatar.png"></image>
+	    </view>
+	</view>
+</view>
