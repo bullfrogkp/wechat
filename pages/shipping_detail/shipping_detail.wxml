@@ -1,8 +1,10 @@
 <view class="container">
 	<view class="ar_cont">
-	    <button bindtap="addShipping" data-aid="{{item.id}}">编辑货运单</button> 
-	
-	    <view class="ar_sevice_item">
+		<view>
+		    <button bindtap="addShipping" data-aid="{{item.id}}" style="width:45%;float:left;">编辑</button> 
+		    <button bindtap="addShipping" data-aid="{{item.id}}" style="width:45%;float:right;">照片</button> 
+		</view>
+	    <view class="ar_sevice_item" style="clear:both;">
 	        <text class="ar_cont_subject">日期</text>
 	        <text class="ar_cont_price">2017-06-18</text>
 	    </view>
@@ -38,7 +40,5 @@
 	        <text class="ar_cont_price">俩tommyT恤</text>
 	    </view>
 	</view>
-	<button class="edit_btn" bindtap="photoTap">照片</button>
-	<button class="edit_btn" bindtap="editTap">编辑</button>
 	<button class="edit_btn">删除</button>
 </view>
