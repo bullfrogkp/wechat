@@ -1,0 +1,24 @@
+<view class="container edit_wrap">
+<form bindsubmit="submitForm" id="123">
+    <view class="form_group">
+        <text>姓名：</text>
+        <input type="text" name="data_name" value="{{data_name}}" />
+    </view>
+    <view class="form_group">
+        <text>电话：</text>
+        <input type="text" name="data_phone" value="{{data_phone}}"/>
+    </view>
+    <view class="form_group">
+        <text>地址：</text>
+        <textarea>地址</textarea>
+    </view>
+     <view class="form_group">
+        <text>备注：</text>
+        <textarea>备注</textarea>
+    </view>
+    <button class="save_btn"  formType="submit">保存</button>
+    <toast hidden="{{saveToastHidden}}" bindchange="hideToast">
+    保存成功
+    </toast>
+</form>
+</view>

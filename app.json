@@ -10,7 +10,9 @@
     "pages/edit_order/edit_order",
     "pages/agents/agents",
     "pages/agent_detail/agent_detail",
-    "pages/logs/config"
+    "pages/edit_shipping/edit_shipping",
+    "pages/shippings/shippings",
+    "pages/shipping_detail/shipping_detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -33,8 +35,8 @@
     },
      {
       "pagePath": "pages/agents/agents",   
-      "iconPath": "images/contacts.png",
-      "selectedIconPath": "images/contacts.png",
+      "iconPath": "images/agents.png",
+      "selectedIconPath": "images/agents.png",
       "text": "代理"
     },
       {
@@ -44,7 +46,7 @@
       "text": "订单"
     },
       {
-      "pagePath": "pages/logs/config",
+      "pagePath": "pages/shippings/shippings",
       "iconPath": "images/shipping.png",
       "selectedIconPath": "images/shipping.png",
       "text": "货运"

@@ -3,7 +3,7 @@
 var app = getApp()
 var fileData = require('../../utils/data.js') 
 
-Page({ 
+Page({
   // 页面初始数据
   data: {
       colors:['red','orange','yellow','green','purple'],
@@ -35,15 +35,21 @@ Page({
       console.log(e)
       var that = this
       this.setData({
-        curNavId: id, 
+        curNavId: id,
         curIndex: index,
       })
       
   },
   // 跳转至详情页
-  addOrder: function(e){
+  addAgent: function(e){
     wx.navigateTo({
-      url:'../order_detail/order_detail?artype=' + e.currentTarget.dataset.artype
+      url:'../agent_detail/agent_detail?artype=' + e.currentTarget.dataset.artype
+    })
+  },
+  // 跳转至详情页
+  agentDetail: function(e){
+    wx.navigateTo({
+      url:'../agent_detail/agent_detail?artype=' + e.currentTarget.dataset.artype
     })
   },
   // 加载更多

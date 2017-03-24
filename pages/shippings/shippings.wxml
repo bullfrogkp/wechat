@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+	<scroll-view  scroll-y="true"  class="page-body" bindscrolltolower="loadMore">
+	  <view class="search" style="padding-bottom:25rpx;">
+	    <button bindtap="addAgent">添加代理</button>
+	  </view>
+	  <view class="search">
+	    <input placeholder="搜索" class="search_input" />
+	  </view>
+	  <!--list-->
+	  <view class="nav_section">
+    	<view wx:if="{{list[curIndex]}}">
+	        <block wx:for="{{list[curIndex]}}" wx:key="item.id">
+	            <view class="nav_section_items" >
+	                <!--content-->
+	                <view class="section_cont" bindtap="agentDetail" data-aid="{{item.id}}">
+	                    <view class="section_cont_sub">
+	                        <text>{{item.subject}}</text>
+	                    </view>
+	                </view>
+	            </view>
+	        </block>
+	    </view>
+	    <view wx:else>暂无数据</view>
+	  </view>
+	</scroll-view>
+</view>
