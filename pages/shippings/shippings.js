@@ -43,7 +43,7 @@ Page({
   // 跳转至详情页
   addShipping: function(e){
     wx.navigateTo({
-      url:'../shipping_detail/shipping_detail?artype=' + e.currentTarget.dataset.artype
+      url:'../edit_shipping/edit_shipping'
     })
   },
   // 跳转至详情页

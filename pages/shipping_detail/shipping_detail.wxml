@@ -1,9 +1,9 @@
 <view class="container">
 	<view class="ar_cont">
 		<view>
-		    <button bindtap="editTap" data-aid="{{item.id}}" style="width:28%;float:left;">编辑</button> 
-		    <button bindtap="photoTap" data-aid="{{item.id}}" style="width:28%;float:left;margin-left:10rpx;">照片</button> 
-		    <button bindtap="photoTap" data-aid="{{item.id}}" style="width:40%;float:right;">添加物品</button> 
+		    <button bindtap="editTap" data-aid="{{item.id}}" style="width:32%;float:left;">编辑货运</button> 
+		    <button bindtap="photoTap" data-aid="{{item.id}}" style="width:32%;float:left;margin-left:10rpx;">编辑照片</button> 
+		    <button bindtap="photoTap" data-aid="{{item.id}}" style="width:32%;float:right;">编辑物品</button> 
 		</view>
 	    <view class="ar_sevice_item" style="clear:both;">
 	        <text class="ar_cont_subject">日期</text>
@@ -17,12 +17,12 @@
 	        <text class="ar_cont_subject">电话</text>
 	        <text class="ar_cont_price">4168309366</text>
 	    </view>
-	    <view class="ar_sevice_item">
-	        <text class="ar_cont_subject">地址</text>
+	     <view class="ar_sevice_item">
+	        <text class="ar_cont_subject">价格</text>
 	        <text class="ar_cont_price">4168309366</text>
 	    </view>
 	    <view class="ar_sevice_item">
-	        <text class="ar_cont_subject">价格</text>
+	        <text class="ar_cont_subject">地址</text>
 	        <text class="ar_cont_price">4168309366</text>
 	    </view>
 	    <view class="ar_sevice_item">
