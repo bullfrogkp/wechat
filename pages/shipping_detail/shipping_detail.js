@@ -5,12 +5,17 @@ Page( {
   onLoad: function () { 
   },
   // 预定
-  photoTap:function(){
+  editPhotoTap:function(){
     wx.navigateTo({
     	url:'../shipping_photos/shipping_photos'
     })
   },
-  editTap:function(){
+  editItemTap:function(){
+	    wx.navigateTo({
+	    	url:'../shipping_items/shipping_items'
+	    })
+	  },
+  editShippingTap:function(){
 	    wx.navigateTo({
 	    	url:'../edit_shipping/edit_shipping'
 	    })
