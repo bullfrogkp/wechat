@@ -41,14 +41,14 @@
     },
       {
       "pagePath": "pages/orders/orders",
-      "iconPath": "images/order.png",
-      "selectedIconPath": "images/order.png",
+      "iconPath": "images/orders.png",
+      "selectedIconPath": "images/orders.png",
       "text": "订单"
     },
       {
       "pagePath": "pages/shippings/shippings",
-      "iconPath": "images/shipping.png",
-      "selectedIconPath": "images/shipping.png",
+      "iconPath": "images/shippings.png",
+      "selectedIconPath": "images/shippings.png",
       "text": "货运"
     }]
   }
