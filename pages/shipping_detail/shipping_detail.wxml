@@ -1,28 +1,29 @@
 <view class="container">
 	<view class="ar_cont">
-	    <view class="ar_cont_h1" bindtap="editTap" data-aid="{{item.id}}">编辑代理信息</view> 
+	    <view class="ar_cont_h1" bindtap="editTap" data-aid="{{item.id}}">货运单信息</view> 
 	
 	    <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
-	        <text class="ar_cont_subject">姓名</text>
-	        <text class="ar_cont_price">笑盈盈</text>
+	        <text class="ar_cont_subject">日期</text>
+	        <text class="ar_cont_price">2017-06-18</text>
 	    </view>
-	
 	    <view class="ar_sevice_item">
-	        <text class="ar_cont_subject">电话</text>
-	        <text class="ar_cont_price">13840908778</text>
+	        <text class="ar_cont_subject">姓名</text>
+	        <text class="ar_cont_price">王林</text>
 	    </view>
-	
+		<view class="ar_sevice_item">
+	        <text class="ar_cont_subject">电话</text>
+	        <text class="ar_cont_price">4168309366</text>
+	    </view>
 	    <view class="ar_sevice_item">
 	        <text class="ar_cont_subject">地址</text>
-	        <text class="ar_cont_price">黑龙江哈尔滨道里区松宾利小区110号2楼110</text>
+	        <text class="ar_cont_price">4168309366</text>
 	    </view>
-	    
 	    <view class="ar_sevice_item">
 	        <text class="ar_cont_subject">备注</text>
 	        <text class="ar_cont_price">需要结账，还欠两件衬衫，三条打底裤需要付款</text>
 	    </view>
 	</view>
-	<button class="edit_btn" bindtap="ediTap">订单</button>
+	<button class="edit_btn" bindtap="ediTap">货物列表</button>
 	<button class="edit_btn" bindtap="editTap">编辑</button>
 	<button class="edit_btn">删除</button>
 </view>

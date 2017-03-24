@@ -2,7 +2,7 @@
 <view class="container">
 	<scroll-view  scroll-y="true"  class="page-body" bindscrolltolower="loadMore">
 	  <view class="search" style="padding-bottom:25rpx;">
-	    <button bindtap="addAgent">添加代理</button>
+	    <button bindtap="addAgent">添加货运单</button>
 	  </view>
 	  <view class="search">
 	    <input placeholder="搜索" class="search_input" />
@@ -13,7 +13,7 @@
 	        <block wx:for="{{list[curIndex]}}" wx:key="item.id">
 	            <view class="nav_section_items" >
 	                <!--content-->
-	                <view class="section_cont" bindtap="agentDetail" data-aid="{{item.id}}">
+	                <view class="section_cont" bindtap="shippingDetail" data-aid="{{item.id}}">
 	                    <view class="section_cont_sub">
 	                        <text>{{item.subject}}</text>
 	                    </view>
