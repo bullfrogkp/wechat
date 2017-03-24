@@ -46,6 +46,11 @@ Page({
       url:'../contact_detail/contact_detail?artype=' + e.currentTarget.dataset.artype
     })
   },
+  addContact: function(e){
+    wx.navigateTo({
+      url:'../contact_detail/contact_detail'
+    })
+  },
   // 加载更多
   loadMore: function (e) {
     console.log('加载更多')

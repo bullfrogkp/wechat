@@ -41,9 +41,9 @@ Page({
       
   },
   // 跳转至详情页
-  addOrder: function(e){
+  addAgent: function(e){
     wx.navigateTo({
-      url:'../order_detail/order_detail?artype=' + e.currentTarget.dataset.artype
+      url:'../agent_detail/agent_detail?artype=' + e.currentTarget.dataset.artype
     })
   },
   // 加载更多

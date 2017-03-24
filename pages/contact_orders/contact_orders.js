@@ -46,6 +46,12 @@ Page({
       url:'../order_detail/order_detail?artype=' + e.currentTarget.dataset.artype
     })
   },
+  // 跳转至详情页
+  addContactOrder: function(e){
+    wx.navigateTo({
+      url:'../order_detail/order_detail?artype=' + e.currentTarget.dataset.artype
+    })
+  },
   // 加载更多
   loadMore: function (e) {
     console.log('加载更多')

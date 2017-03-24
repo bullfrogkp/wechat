@@ -8,6 +8,8 @@
     "pages/order_detail/order_detail",
     "pages/contact_orders/contact_orders",
     "pages/edit_order/edit_order",
+    "pages/agents/agents",
+    "pages/agent_detail/agent_detail",
     "pages/logs/config"
   ],
   "window":{
@@ -28,6 +30,12 @@
       "iconPath": "images/contacts.png",
       "selectedIconPath": "images/contacts.png",
       "text": "客户"
+    },
+     {
+      "pagePath": "pages/agents/agents",   
+      "iconPath": "images/contacts.png",
+      "selectedIconPath": "images/contacts.png",
+      "text": "代理"
     },
       {
       "pagePath": "pages/orders/orders",
