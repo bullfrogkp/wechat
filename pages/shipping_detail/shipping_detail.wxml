@@ -38,7 +38,7 @@
 	        <text class="ar_cont_price">俩tommyT恤</text>
 	    </view>
 	</view>
-	<button class="edit_btn" bindtap="ediTap">货物照片</button>
+	<button class="edit_btn" bindtap="photoTap">照片</button>
 	<button class="edit_btn" bindtap="editTap">编辑</button>
 	<button class="edit_btn">删除</button>
 </view>

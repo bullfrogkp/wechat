@@ -5,14 +5,14 @@ Page( {
   onLoad: function () { 
   },
   // 预定
-  editTap:function(){
+  photoTap:function(){
     wx.navigateTo({
-    	url:'../edit_contact/edit_contact'
+    	url:'../shipping_photo/shipping_photo'
     })
   },
-  ediTap:function(){
+  editTap:function(){
 	    wx.navigateTo({
-	    	url:'../contact_orders/contact_orders'
+	    	url:'../edit_shipping/edit_shipping'
 	    })
 	  }
 })
