@@ -19,6 +19,10 @@
 	        <text class="ar_cont_price">4168309366</text>
 	    </view>
 	    <view class="ar_sevice_item">
+	        <text class="ar_cont_subject">价格</text>
+	        <text class="ar_cont_price">4168309366</text>
+	    </view>
+	    <view class="ar_sevice_item">
 	        <text class="ar_cont_subject">备注</text>
 	        <text class="ar_cont_price">需要结账，还欠两件衬衫，三条打底裤需要付款</text>
 	    </view>

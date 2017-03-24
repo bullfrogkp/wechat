@@ -2,7 +2,7 @@
 <view class="container">
 	<scroll-view  scroll-y="true"  class="page-body" bindscrolltolower="loadMore">
 	  <view class="search" style="padding-bottom:25rpx;">
-	    <button bindtap="addAgent">添加货运单</button>
+	    <button bindtap="addShipping">添加货运单</button>
 	  </view>
 	  <view class="search">
 	    <input placeholder="搜索" class="search_input" />

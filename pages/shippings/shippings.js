@@ -41,15 +41,15 @@ Page({
       
   },
   // 跳转至详情页
-  addAgent: function(e){
+  addShipping: function(e){
     wx.navigateTo({
-      url:'../agent_detail/agent_detail?artype=' + e.currentTarget.dataset.artype
+      url:'../shipping_detail/shipping_detail?artype=' + e.currentTarget.dataset.artype
     })
   },
   // 跳转至详情页
-  agentDetail: function(e){
+  shippingDetail: function(e){
     wx.navigateTo({
-      url:'../agent_detail/agent_detail?artype=' + e.currentTarget.dataset.artype
+      url:'../shipping_detail/shipping_detail?artype=' + e.currentTarget.dataset.artype
     })
   },
   // 加载更多
