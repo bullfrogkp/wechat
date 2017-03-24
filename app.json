@@ -13,7 +13,7 @@
     "pages/edit_shipping/edit_shipping",
     "pages/shippings/shippings",
     "pages/shipping_detail/shipping_detail"
-  ],
+  ], 
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
@@ -23,7 +23,7 @@
   "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",   
-      "iconPath": "images/index.png",
+       "iconPath": "images/index.png",
       "selectedIconPath": "images/index.png",
       "text": "首页"
     },

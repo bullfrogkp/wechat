@@ -1,8 +1,8 @@
 <view class="container">
 	<view class="ar_cont">
-	    <view class="ar_cont_h1" bindtap="editTap" data-aid="{{item.id}}">货运单信息</view> 
+	    <button bindtap="addShipping" data-aid="{{item.id}}">编辑货运单</button> 
 	
-	    <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
+	    <view class="ar_sevice_item">
 	        <text class="ar_cont_subject">日期</text>
 	        <text class="ar_cont_price">2017-06-18</text>
 	    </view>
@@ -26,8 +26,19 @@
 	        <text class="ar_cont_subject">备注</text>
 	        <text class="ar_cont_price">需要结账，还欠两件衬衫，三条打底裤需要付款</text>
 	    </view>
+	    <view class="ar_sevice_item" style="background-color:#F8F8F8;">
+	        <text style="font-weight:bold;text-align:center;width:100%">货物列表</text>
+	    </view>
+	    <view class="ar_sevice_item">
+	        <text class="ar_cont_subject">思晓雯</text>
+	        <text class="ar_cont_price">俩tommyT恤，tna打底裤，饼干，开心果</text>
+	    </view>
+	     <view class="ar_sevice_item">
+	        <text class="ar_cont_subject">思晓雯</text>
+	        <text class="ar_cont_price">俩tommyT恤</text>
+	    </view>
 	</view>
-	<button class="edit_btn" bindtap="ediTap">货物列表</button>
+	<button class="edit_btn" bindtap="ediTap">货物照片</button>
 	<button class="edit_btn" bindtap="editTap">编辑</button>
 	<button class="edit_btn">删除</button>
 </view>
