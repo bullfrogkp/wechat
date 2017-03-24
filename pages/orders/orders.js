@@ -35,7 +35,7 @@ Page({
       console.log(e)
       var that = this
       this.setData({
-        curNavId: id,
+        curNavId: id, 
         curIndex: index,
       })
       

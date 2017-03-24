@@ -38,6 +38,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom:1px solid #ddd;
     padding:10rpx 0rpx;
     vertical-align: middle;
     line-height: 80rpx;
@@ -69,4 +70,5 @@
     font-size: 32rpx;
     color:#fff;
     border-radius: 0rpx;
+    margin:40rpx 0rpx 10rpx;
 }
