@@ -1,9 +1,9 @@
 <view class="container">
 	<view class="ar_cont">
 		<view>
-		    <button bindtap="editShippingTap" data-aid="{{item.id}}" style="width:32%;float:left;">编辑货运</button> 
-		    <button bindtap="editPhotoTap" data-aid="{{item.id}}" style="width:32%;float:left;margin-left:10rpx;">编辑照片</button> 
-		    <button bindtap="editItemTap" data-aid="{{item.id}}" style="width:32%;float:right;">编辑物品</button> 
+		    <button bindtap="editShippingTap" data-aid="{{item.id}}" style="width:32%;float:left;font-size:30rpx">编辑货运</button> 
+		    <button bindtap="editPhotoTap" data-aid="{{item.id}}" style="width:32%;float:left;margin-left:10rpx;font-size:30rpx">编辑照片</button> 
+		    <button bindtap="editItemTap" data-aid="{{item.id}}" style="width:32%;float:right;margin-right:4rpx;font-size:30rpx">编辑物品</button> 
 		</view>
 	    <view class="ar_sevice_item" style="clear:both;">
 	        <text class="ar_cont_subject">日期</text>

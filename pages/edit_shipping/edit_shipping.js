@@ -6,7 +6,8 @@ Page({
         city:myData.cityData(),
         proviIndex:0,
         cityIndex:0,
-        saveToastHidden:true
+        saveToastHidden:true,
+        date : '2016-10-14'
     },
     onLoad:function(options){
         var init = myData.searchAddrFromAddrs(options.addrid)
@@ -42,6 +43,13 @@ Page({
         this.setData({
             saveToastHidden:true
         })
+    },
+ // 日期选择
+    bindDateChange: function(e){
+      console.log('date picker发送选择改变，携带值为', e.detail.value)
+      this.setData({
+            date: e.detail.value
+      })
     }
     
 })
