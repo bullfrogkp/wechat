@@ -2,6 +2,7 @@
 <form bindsubmit="submitForm" id="123">
     <view class="form_group">
         <text>日期：</text>
+        <view class="ar_date_time">
          <view class="ar_date">
 	        <image src="../../images/date.png"></image>
 	        <picker mode="date" placeholder="选择日期" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange" >
@@ -9,6 +10,7 @@
 	                {{date}}
 	            </view>
 	        </picker>
+	    </view>
 	    </view>
     </view>
     <view class="form_group">

@@ -13,7 +13,8 @@
     "pages/edit_shipping/edit_shipping",
     "pages/shippings/shippings",
     "pages/shipping_detail/shipping_detail",
-    "pages/shipping_photos/shipping_photos"
+    "pages/shipping_photos/shipping_photos",
+    "pages/shipping_items/shipping_items"
   ], 
   "window":{
     "backgroundTextStyle":"light",

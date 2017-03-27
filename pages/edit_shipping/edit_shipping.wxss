@@ -53,5 +53,33 @@
     font-size: 32rpx;
     color:#fff;
     border-radius: 0rpx;
-    margin:40rpx 0rpx;
+    margin-top:40rpx;
+}
+
+.ar_date_time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ar_date_time .ar_date,
+.ar_date_time .ar_time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ar_date_time .ar_date image{
+    width:34rpx;
+    height:38rpx;
+    margin-top:12rpx;
+}
+.ar_date_time .ar_time image{
+    width:45rpx;
+    height:38rpx;
+}
+.ar_date_time picker{
+    width:430rpx;
+    border:1px solid #ddd;
+    border-radius:8rpx;
+    padding:0rpx 10rpx;
+    margin-left:10rpx;
 }

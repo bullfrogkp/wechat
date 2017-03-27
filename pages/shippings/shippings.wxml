@@ -1,11 +1,12 @@
 <!--index.wxml-->
-<view class="container">
+<view class="container"> 
 	<scroll-view  scroll-y="true"  class="page-body" bindscrolltolower="loadMore">
 	  <view class="search" style="padding-bottom:25rpx;">
 	    <button bindtap="addShipping">添加货运单</button>
 	  </view>
 	  <view class="search">
-	    <input placeholder="搜索" class="search_input" />
+	    <input class="search_input" />
+		<button bindtap="searchShipping" style="font-size:27rpx;height:1.7rem">搜索</button>
 	  </view>
 	  <!--list-->
 	  <view class="nav_section">
