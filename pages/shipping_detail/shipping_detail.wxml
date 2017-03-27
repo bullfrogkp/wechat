@@ -41,5 +41,9 @@
 	        <text class="ar_cont_price">俩tommyT恤</text>
 	    </view>
 	</view>
-	<button class="edit_btn">删除</button>
+	<button class="edit_btn" bindtap="showModal">删除</button>
+	<view>
+		<modal title="删除货运单" hidden="{{modalHidden}}" confirm-text="确定" cancel-text="取消"
+		bindconfirm="modalBindaconfirm" bindcancel="modalBindcancel">确定要删除么？</modal>
+	</view>
 </view>
